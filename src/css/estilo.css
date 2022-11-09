@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background: url('../imagens/background.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    color: rgb(223, 221, 221);  
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    background-color: #0e2050de;
+    width: 400px;
+    border: 2px solid #229cff;
+    height: 600px;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px;  
+    margin-bottom: 24px;
+}
+
+.profile_photo {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 4px solid rgb(248, 228, 43);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header img {
+    width: 24px;
+    height: 24px;
+}
+
+.main-info h3 {
+    font-style: italic;
+}
+
+.tabs {
+    display: flex;
+}
+
+.tabs img {
+    width: 28px;
+    height: 28px;
+}
+
+.tabs .tab {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 5px 0;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.tabs .tab.selected {
+    background-color: rgb(13, 19, 43);
+    border-top: 1px solid #229cff;
+}
+
+#stats {
+    border-right: 0.5px solid #229cff;
+}
+
+#career {
+    border-left: 0.5px solid #229cff;
+}
+
+.tabs-info {
+    background-color: rgb(13, 19, 43);
+}
+
+.tabs .tab:hover {
+    background-color: #1143ce;
+}
+
+
+.tabs-info .info {
+    min-height: 350px;
+    padding: 15px;
+    display: none;
+}
+
+.tabs-info .info.selected {
+    display: block;
+}
+
+.teams {
+    max-height: 250px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.teams img {
+    width: 20px;
+    height: 20px;
+}
+
+.info .subtitle {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.info .teams li {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.info .teams li span {
+    font-size: 16px;
+    font-weight: 500;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.teams h4, #info-stats h4 {
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#info-stats img {
+    width: 28px;
+    height: 28px;
+    margin-bottom: 8px;
+}
+
+.stats-content {
+    max-height: 250px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.stats-content table {
+    border-collapse: collapse;
+}
+
+.table-header img {
+    width: 5px;
+    height: 10px;
+}
+
+.stats-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.premier-league table {
+    width: 100%;
+    border: 4px solid #3d195b;
+    margin-bottom: 24px;
+}
+
+.premier-league table td {
+    text-align: center;
+    border: 1px solid #3d195b;
+    padding: 8px;
+}
+
+.champions-league table {
+    width: 100%;
+    border: 4px solid #0E1E5B;
+    margin-bottom: 24px;
+}
+
+.champions-league table td {
+    text-align: center;
+    border: 1px solid #0E1E5B;
+    padding: 8px;
+}
+
+.national-team table {
+    width: 100%;
+    border: 4px solid #e5804d;
+    margin-bottom: 16px;
+}
+
+.national-team table td {
+    text-align: center;
+    border: 1px solid #e5804d;
+    padding: 8px;
+}

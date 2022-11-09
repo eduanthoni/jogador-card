@@ -1,0 +1,26 @@
+/* COR DE FUNDO DA LISTA DE TIMES EM UM ARQUIVO SEPARADO PARA O ARQUIVO DE ESTILO PRINCIPAL NAO FICAR MUITO
+POLUIDO */
+
+.liverpool {
+    background: url('../imagens/liverpool.png') no-repeat center;
+    background-size: 30%;
+    background-color: #d00027;
+}    
+
+.celtic {
+    background: url('../imagens/celtic.png') no-repeat center;
+    background-size: 30%;
+    background-color: #018749;
+}
+
+.groningen {
+    background: url('../imagens/groningen.png') no-repeat center;
+    background-size: 30%;
+    background-color: #008e5a;
+}
+
+.southampton {
+    background: url('../imagens/southampton.png') no-repeat center;
+    background-size: 30%;
+    background-color: #D71920;
+}

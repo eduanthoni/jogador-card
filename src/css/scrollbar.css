@@ -1,0 +1,24 @@
+/* FOLHA DE ESTILO PARA BARRA DE ROLAGEM DA PÁGINA - CHROME, EDGE E FIREFOX */
+
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 16px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 12px;
+  }
+
+::-webkit-scrollbar-track {
+    background: #0e2050;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #229cff;
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #67b9fc;
+}
